@@ -1,0 +1,21 @@
+﻿<Window x:Class="Compte_Bancaire_WPF.Windows.PerformOperation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Compte_Bancaire_WPF.Windows"
+        mc:Ignorable="d"
+        Title="PerformOperation" Height="450" Width="800">
+
+    <Grid Background="Beige">
+        <Label Content="Numéro de compte" Foreground="Brown" FontSize="15" HorizontalAlignment="Left" Margin="25,34,0,0" VerticalAlignment="Top" Width="145"/>
+        <TextBox x:Name="numero" Background="Azure" Foreground="DarkGreen" FontSize="21" HorizontalAlignment="Left" Height="23" Margin="190,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Montant" Foreground="Brown" FontSize="15" HorizontalAlignment="Left" Margin="25,109,0,0" VerticalAlignment="Top" Width="145"/>
+        <TextBox x:Name="montant" Background="Azure" Foreground="DarkGreen" FontSize="21" HorizontalAlignment="Left" Height="23" Margin="190,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Valider" Background="BurlyWood" Foreground="White" FontSize="21" FontWeight="Bold" HorizontalAlignment="Left" Margin="120,211,0,0" VerticalAlignment="Top" Width="165" Height="49" Click="Valider"/>
+        <Label Content="type d'opération" Foreground="Brown" FontSize="15" HorizontalAlignment="Left" Margin="390,37,0,0" VerticalAlignment="Top" Width="145"/>
+        <TextBox x:Name="typeO" Background="Azure" Foreground="DarkGreen" FontSize="21" HorizontalAlignment="Left" Height="26" Margin="570,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+
+    </Grid>
+</Window>
